@@ -1,0 +1,11 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+};
+    /* home page color */
+
+body {
+    background-color: rgb(2, 176, 250);
+}
