@@ -123,7 +123,7 @@ nav li:first-child {
 }
 
 .static1 {
-    font-size: 30px;
+    font-size: clamp(24px, 3vw, 30px);
     position: relative;
 }
 
@@ -184,4 +184,5 @@ nav li:first-child {
         left: 0;
     }
 }
+
 
