@@ -185,4 +185,16 @@ nav li:first-child {
     }
 }
 
+/* container for profile picture */
 
+.pic-container {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+.profilepic {
+    height: 500px;
+    width: auto;
+    margin-right: 100px;
+}
