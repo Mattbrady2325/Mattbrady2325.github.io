@@ -40,9 +40,28 @@
                 <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
             </ul>
         </nav>
-        <div class = "aboutme-container">
-            Hello, my name is matthew brady and I 
-        </div>
+        
+        <section class="aboutme-wrapper">
+            <div class = "aboutme-container">
+                    <div id="box1" class="box active" onclick="bringToFront('box1')">This is box1</div>
+                    <div id="box2" class="box" onclick="bringToFront('box2')">This is box2</div>
+            </div>
+                    <div class="clickme-message">Click my box underneath to switch!</div>
+        </section>
+
+        <section class="footer">
+            <div class="socials">
+                <a href="https://github.com/Mattbrady2325" target="_blank"><img class = "github-footer-logo" src="images\GitHub-Bubble-Logo.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/matthew-brady-" target="_blank"><img class = "LinkedIn-footer-logo" src="images\LinkedIn-Bubble-Logo.png" alt="LinkedIn"></a>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <a href="">Contact Me</a>
+                </li>
+            </ul>
+        </section>
+
          <script src="js/script.js"></script>
     </body>
 </html>
